@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<natjecatelji>
+	<natjecatelj>
+		<username>i.kvesic</username>
+		<password>dajtozlato</password>
+		<ime>Ivan</ime>
+		<prezime>Kvesic</prezime>
+		<rankWKF>4</rankWKF>
+		<zemlja>Hrvatska</zemlja>
+		<bodovi>3450</bodovi>
+		<kategorija>KUMITE Male -84kg</kategorija>
+	</natjecatelj>
+
+	<natjecatelj>
+		<username>d.brose</username>
+		<password>army123</password>
+		<ime>Douglas</ime>
+		<prezime>Brose</prezime>
+		<rankWKF>3</rankWKF>
+		<zemlja>Brazil</zemlja>
+		<bodovi>5017.50</bodovi>
+		<kategorija>KUMITE Male -60kg</kategorija>
+	</natjecatelj>
+
+	<natjecatelj>
+		<username>e.pavlov</username>
+		<password>1231</password>
+		<ime>Emil</ime>
+		<prezime>Pavlov</prezime>
+		<rankWKF>16</rankWKF>
+		<zemlja>Sj. Makedonija</zemlja>
+		<bodovi>1710</bodovi>
+		<kategorija>KUMITE Male -67kg</kategorija>
+	</natjecatelj>
+
+	<natjecatelj>
+		<username>a.hasani</username>
+		<password>ciaobella123</password>
+		<ime>Alesandra</ime>
+		<prezime>Hasani</prezime>
+		<rankWKF>29</rankWKF>
+		<zemlja>Hrvatska</zemlja>
+		<bodovi>1065</bodovi>
+		<kategorija>KUMITE Female -55kg</kategorija>
+	</natjecatelj>
+
+</natjecatelji>

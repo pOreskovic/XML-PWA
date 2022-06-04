@@ -1,0 +1,238 @@
+body{
+    background-image: url("background image/y-so-serious-white/y-so-serious-white.png");
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face{
+    font-family: "Naslov";
+    src:url("fonts/FjallaOne-Regular.ttf")
+}
+@font-face{
+    font-family: "sve";
+    src: url("fonts/JosefinSans-Regular.ttf");
+}
+p{
+    font-family: "sve";
+}
+h1,h2{
+    font-family: "Naslov";
+}
+header{
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    margin-top: 35px;
+    font-size: 450%;
+}
+
+header ul{
+    list-style-type: none;
+    display: inline;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav{
+    margin-top: 70px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 10px 45px;
+    background-color: rgb(110, 110, 110);
+}
+
+nav a:hover{
+    background-color: rgb(168, 168, 168);
+    color: rgb(199, 82, 82);
+}
+
+
+.caption{
+    font-size: xx-large;
+    margin: 50px 0px;
+    text-align: center;
+    background-color: rgb(77, 77, 77);
+    color: rgb(199, 82, 82);
+    padding: 45px 15px;
+    border-radius: 15px;
+}
+
+.caption i{
+    font-size: 50px;
+}
+#dolje{
+    margin-bottom: 100px;
+}
+main h2{
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.history{
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.history::before{
+    content: "K";
+    color: rgb(199, 82, 82);
+    font-size: 300%;
+}
+
+main .okinawa{
+    margin-top: 25px;
+}
+
+.modern{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.modern::before{
+    content: "M";
+    color: rgb(199, 82, 82);
+    font-size: 300%;
+}
+
+.pomakniDolje{
+    margin-bottom: 50px;
+}
+
+.NaslovLog{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#prijava{
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+    color: #f44336;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 5px;
+    width: 400px;
+    padding: 25px 0;
+}
+
+#prijava input{
+    margin: 5px 0;
+}
+
+#tablica{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.flex-container{
+    display: none;
+    justify-content: center;
+}
+
+#welcomeMes{
+    margin-top: -15px;
+}
+
+#status{
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 5px;
+}
+
+table tr{
+    color: #cc0000;
+    border: solid;
+    background-color: rgb(46, 46, 46);
+    font-family: "sve";
+    font-size: x-large;
+}
+
+table th{
+    border: solid rgb(107, 107, 107);
+    color: #cc0000;
+    background-color: rgb(46, 46, 46);
+    font-family: "sve";
+    font-size:xx-large;
+}
+table td{
+    border: solid rgb(107, 107, 107);
+}
+table tr:hover{
+    background-color:#f44336;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-family: "sve";
+}
+
+@media(max-width:1399px){
+    header li{
+        font-size: small;
+    }
+}
+
+@media (max-width:1200px){
+    header h1{
+        margin-top: 55px;
+    }
+
+    header img{
+        margin-top: 35px;
+    }
+
+    nav{
+        margin-top: -20px;
+        padding-bottom: 20px;
+    }
+    header ul{
+        width: 100%;
+    }
+    header ul li{
+        display: block;
+        margin-top: 20px;
+        min-width: 100%;
+    }
+    
+    
+    nav a{
+        padding: 10px 80px;
+    }
+}
+
+@media(max-width:991px){
+    header ul li{
+        text-align: center;
+    }
+
+    header img{
+        max-width: 50%;
+        float: right;
+    }
+
+    nav a{
+        padding: 10px 180px;
+    }
+
+}

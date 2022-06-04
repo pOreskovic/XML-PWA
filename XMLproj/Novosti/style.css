@@ -1,0 +1,58 @@
+img{
+    max-width: 100%;
+}
+body{
+    background-image:  url(../images/spikes.png);
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+}
+header .kategorije{
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+
+.kategorije a{
+    text-decoration: none;
+    padding: 5%;
+    color: black;
+}
+
+.kategorije a:hover{
+    color: white;
+}
+
+.button{
+    margin: auto;
+    background-color: rgb(168, 168, 168);
+    margin-top: 5px;
+    width: 150px;
+}
+
+main{
+    padding-top: 25px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:991px){
+    .button{
+        margin: auto;
+        background-color: rgb(168, 168, 168);
+        margin-top: 5px;
+        width: 80%;
+    }
+}

@@ -1,0 +1,185 @@
+@font-face{
+    font-family: "Naslov";
+    src:url("../fonts/FjallaOne-Regular.ttf")
+}
+@font-face{
+    font-family: "sve";
+    src: url("../fonts/JosefinSans-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "sve";
+}
+
+body{
+    background-image: url("../background image/y-so-serious-white/y-so-serious-white.png");
+}
+
+h1{
+    font-family: "Naslov";
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+.c1{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-size: 400%;
+}
+
+.saleItem{
+    display: flex;
+    background-image: url("../images/trgovinaKimonoSale.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 25%;
+    height: 250px;
+    margin: 15px 0px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.saleItem h3{
+    color: white;
+    background-color: rgb(68, 67, 67);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+header a{
+    font-size: 500%;
+    color: rgb(199, 82, 82);
+}
+
+main{
+    margin: 50px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px 30px;
+    border-radius: 20px;
+    
+}
+
+.item{
+    width: 28%;
+    margin-right: 1px;
+    margin-bottom: 25px;
+}
+
+.item h3{
+    font-size: 125%;
+    color: rgb(255, 45, 45);
+}
+
+main img{
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+}
+
+.opis{
+    background-color: rgb(107, 107, 107);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: -10px;
+    padding: 20px 5px;
+    color: rgb(247, 112, 112);
+    text-align: center;
+    height: 260px;
+}
+
+.opis i{
+    font-size: 200%;
+    color: rgb(187, 36, 36);
+}
+
+.opis a i{
+    margin-top: 25px;
+    font-size: 300%;
+    color: rgb(224, 222, 222);
+    transition: color 0.5s linear;
+}
+
+
+
+.opis a i:hover{
+    color: rgb(199, 82, 82);
+}
+
+.opis h2{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 200%;
+    text-decoration-line: underline;
+}
+
+
+.opis h4{
+    font-size: 130%;
+    margin-top: 25px;
+}
+
+.opis p{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+}
+
+
+@media (max-width:999px){
+    .c1{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main{
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+    }
+
+    .saleItem{
+        width: 250px;
+    }
+}
+
+@media (max-width:828px){
+    main{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+        flex-direction: column;
+    }
+
+    .item{
+        width: 300px;
+    }
+}
