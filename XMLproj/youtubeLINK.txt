@@ -1,0 +1,8 @@
+Pozdrav,
+
+U slučaju da ne znas ili ne mozes pokrenuti stranicu, snimio sam kratki video koji pokazuje stranicu.
+Sav kod je raden u Visual Studio Code.
+
+Video: https://youtu.be/3KjFxMoaOEo
+
+Ako je potrebno, kontaktiraj me na: poreskovi@tvz.hr
